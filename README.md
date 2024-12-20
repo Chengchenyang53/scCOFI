@@ -34,12 +34,12 @@ Before run, please carefully read  'S_update_transformer.docs', and refer to the
    
 2) RNA and ATAC : 
 
-`python -u run_scCOFI.py --n_clusters 'num_cluster' --ae_weight_file 'AE_weight_file' --data_file datafile
+`python -u main.py --n_clusters 'num_cluster' --ae_weight_file 'AE_weight_file' --data_file datafile
 --save_dir ../result --embedding_file --prediction_file --filter1 --filter2 --f1 2000 --f2 2000 -el 256 128 64 -dl1 64 128 256 -dl2 64 128 256` 
 
 3) RNA and ADT : 
 
-`python -u run_scCOFI.py --n_clusters 'num_cluster' --ae_weight_file 'AE_weight_file' --data_file datafile
+`python -u main.py --n_clusters 'num_cluster' --ae_weight_file 'AE_weight_file' --data_file datafile
 --save_dir ../result --embedding_file --prediction_file`
 
 # Output of scCOFI
